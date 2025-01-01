@@ -159,16 +159,3 @@
 //       break;
 //   }
 // }
-let testNum = Number(prompt(""));
-
-function test(a) {
-  if (isNaN(a)) {
-    return alert(false);
-  } else {
-    for (i = 1; i < 10; i++) {
-      console.log(a * i);
-    }
-  }
-}
-
-test(testNum);
